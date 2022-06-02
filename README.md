@@ -1,2 +1,2 @@
-# shell
+#!/bin/bash
 Shell Basic

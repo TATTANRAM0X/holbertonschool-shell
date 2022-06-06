@@ -1,1 +1,2 @@
 #!/bin/bash
+grep "root" | head -n 3

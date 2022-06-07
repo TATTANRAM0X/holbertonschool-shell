@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -r find . -type f -iname "*.jpeg"
+ls -R find . -type f -iname "*.jpeg"

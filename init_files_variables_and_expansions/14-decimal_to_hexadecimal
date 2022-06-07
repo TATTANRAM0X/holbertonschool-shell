@@ -1,2 +1,2 @@
 #!/bin/bash
-hex=$(echo "ibase=10;obase=16;$'\n'"|bc)
+hex=$(echo "ibase=10;obase=16;$n"|bc)

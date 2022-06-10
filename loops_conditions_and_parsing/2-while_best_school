@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this scrip create a var number, while number that is 0 aprough to  10 mark Best School  
+number=0
+
+while [[ $number -ne 10 ]]
+do
+  echo Best School
+  ((number++))
+done

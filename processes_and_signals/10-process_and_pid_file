@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # This script creates the file /var/run/holbertonscript.pid containing its PID
-function love() {                                                                                                                       
-    rm /var/run/holbertonscript.pid                                                                                                     
-    exit
-}                                                                                                                                       
+
+function love () {
+	rm /var/run/holbertonscript.pid
+	exit
+}                                                                                                                                     
 
 trap "echo I hate the kill command;love" SIGTERM
 trap "echo Y U no love me?!;love" SIGINT

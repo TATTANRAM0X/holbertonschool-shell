@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-Script that manages by process manage_my_process. Eisther starting, stopping or restarting the other process and creating a file storing its PID.
+# Script that manages by process manage_my_process. Eisther starting, stopping or restarting the other process and creating a file storing its PID.
 
 var1="/var/run/my_process.pid"
 if [ "$1" == "start" ]
